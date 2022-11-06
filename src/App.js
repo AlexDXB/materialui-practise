@@ -1,8 +1,13 @@
-import logo from "./logo.svg";
 import "./App.css";
+import MuiButton from "./components/MuiButton";
+// import MuiTopography from "./components/MuiTopography";
 
 function App() {
-  return;
+  return (
+    <div className="App">
+      <MuiButton />
+    </div>
+  );
 }
 
 export default App;
